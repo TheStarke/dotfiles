@@ -6,7 +6,7 @@ set lines=70
 let &columns = g:halfsize
 
 " Font
-set guifont=Monaco:h10.00
+set guifont=Monaco:h12.00
 
 " Use console dialogs
 set guioptions+=c
@@ -21,9 +21,11 @@ set go+=T
 set cursorline
 
 " w00t
-colorscheme vividchalk
+colorscheme railscasts
 set bg=dark
 if &background == "dark"
     hi normal guibg=black
     set transp=8
 endif
+
+highlight CursorLine guibg=Grey20

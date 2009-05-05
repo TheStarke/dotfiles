@@ -1,6 +1,6 @@
 [user]
-  name = Chris Moore
-  email = cdmwebs@gmail.com
+  name = Dave Starke
+  email = dave.starke@gmail.com
 [color]
   status = auto
   diff = auto
@@ -13,7 +13,7 @@
 [merge]
   tool = vimdiff
 [core]
-  excludesfile = /Users/chris/.gitignore
+  excludesfile = /Users/starkedt/.gitignore
 [apply]
   whitespace = strip
 [diff]
