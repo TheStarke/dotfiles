@@ -20,6 +20,9 @@ set go+=T
 " add a cursorline
 set cursorline
 
+"add numbers
+set number
+
 " w00t
 colorscheme railscasts
 set bg=dark
@@ -27,5 +30,4 @@ if &background == "dark"
     hi normal guibg=black
     set transp=8
 endif
-
 highlight CursorLine guibg=Grey20
